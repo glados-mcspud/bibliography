@@ -1,6 +1,6 @@
-# bibliography
+# 'bibliografix'
 # NOTE
-# *** This is an active, first-time attempt at a full, alebit simple, program; the author is a proponent of open access and hopes that this mini-program, upon completion, will enable users to quantitatively scan and analyse their bibliographic data (_currently_ only from Web of Science), thus making scoping literature reviews much easier to conduct, at least in for the first instance of scoping. Its wide functionality is currently quite trivial as it is being used for a peer-reviewed publication, but the author intends to integrate user friendliness at the earliest convenience (i.e., upon completion of the manuscript in prep). For now, it is largely restricted to users of python, and more specifically, is written in Jupyter Notebook (.ipynb). The author hopes the current script (as it currently stands) will assist users, particularly those dealing with large datasets or perhaps even novel topics, with understanding what their raw bibliographic data says thus guiding them towards the most relevant literature for deep-diving into, e.g., certain materials and methods. ***   
+# *** This is an active, first-time attempt at a full, albeit simple, program; the author is a proponent of open access and hopes that this mini-program, upon completion, will enable users to quantitatively scan and analyse their bibliographic data (_currently_ only from Web of Science), thus making scoping literature reviews much easier to conduct, at least in for the first instance of scoping. Its wide functionality is currently quite trivial as it is being used for a peer-reviewed publication, but the author intends to integrate user friendliness at the earliest convenience (i.e., upon completion of the manuscript in prep). For now, it is largely restricted to users of python, and more specifically, is written in Jupyter Notebook (.ipynb). The author hopes the current script (as it currently stands) will assist users, particularly those dealing with large datasets or perhaps even novel topics, with understanding what their raw bibliographic data says thus guiding them towards the most relevant literature for deep-diving into, e.g., certain materials and methods. ***   
 
 # V0.1
 This repository contains a python-based workflow for semi-automatically analysing bibliographic data—specifically data exported from Web of Science search queries. The project integrates Natural Language Processing (NLP), topic modeling (using Latent Dirichlet Allocation), clustering (using KMeans), and a suite of visualisation tools to help users explore and interpret their literature data. An interactive dashboard built with Streamlit will allow end users to "play around" with the data, filter records, and inspect topics visually upon completion of the script.
@@ -35,7 +35,7 @@ This pipeline is intended to be open, reproducible, and extensible for researche
 
 ---
 
-## Installation (Not currently recommended, though data being actively used by the author _is_ provided in its entirety and transparently) 
+## Installation (Not currently recommended, though data being actively used by the author _is_ provided in its entirety and thereby transparently) 
 
 1. **Clone the Repository:**
 
